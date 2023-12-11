@@ -14,31 +14,44 @@
 <body>
 <!-------- EN TETE DE LA PAGE ---------->
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#acceuil">Accueil</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#blog">Blog</a>
-            </li>
-
-
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index1.html">Actualités</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Association</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Acceuil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index1.html"><Datag>Nos Services</Datag></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Menus
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#Contact">Contact</a></li>
+                    <li><a class="dropdown-item" href="index1.html#inscrire">S'inscrire ➢</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
                     </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#Services">Contact</a>
-            </li>
+                </ul>
             </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-        </div>
-    </nav>
+    </div>
+</nav>
 
 </header>
 
@@ -46,14 +59,32 @@
 <!------------DEBUT DU CORP DE LA PAGEV--------->
 
 <main>
+
+<section>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/Workpace/image/332905-l-ecosysteme-clef-de-voute-de-l-innovation-web-tete-0602200012736.jpeg" class="d-block w-100">
+        </div>
+            <div class="carousel-item">
+                <img src="/Workpace/image/pexels-littlemoon-6902201.jpg" class="d-block w-100">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
     <div class="slogan">
         <span><strong>Association d'aide aux entreprises</strong> </span><br> Dans leur transformation <br> ecologique .</h1>
     </div>
-
-<section>
-    <picture>
-        <img src="/Workpace/image/vison-4651684796.jpeg"class="img-fluid">
-    </picture>
 
 <div class="texte">
     <h3>
@@ -65,42 +96,38 @@
 </div>
 </section>
 <!------- section blog --------->
-<section id="blog">
-    <article>
-        <nav>
+<section id="blog" class="container-xl">
+    <div class="row">
+        <article class="col-6">
             <img src="/Workpace/image/ECO.ENV 1.png"class="img-fluid" >
-        </nav>
-        <nav class="image2">
-            <img src="/Workpace/image/pexels-thirdman-5256816.jpg"class="img-fluid">
-        </nav>
+            <h3>S'engager </h3>
+            <p><strong>Définir votre stratégie en évaluant votre <br>situation actuelle.</strong></p>
+        <br>
+            <p>Engagez-vous en faveur de la neutralité <br>carbone grace à une feuille de route <br> personnalisée basée sur des levier qui <br>
+            engageront votre éco-système et un business <br>model reinventé qui s'adaptera à l'économie <br>
+        de demain. Faconnez un avenir universel et durable.</p>
     </article>
 
-    <article>
-        <div class="article">
-            <h3>S'engagé</h3>
-                <p><strong>Définir votre stratégie en évaluant votre <br>situation actuelle.</strong></p>
-            <br>
-                <p>Engagez-vous en faveur de la neutralité <br>carbone grace à une feuille de route <br> personnalisée basée sur des levier qui <br>
-                engageront votre éco-système et un business <br>model reinventé qui s'adaptera à l'économie <br>
-            de demain. Faconnez un avenir universel et durable.</p>
-        </div>
+    <article class="col-6">
         <div class="defis">
+            <img src="/Workpace/image/pexels-thirdman-5256816.jpg"class="img-fluid">
             <h3>Défis</h3>
-                <p><strong>Mettre le développement durable au coeur de <br>votre stratégie.</strong></p>
-                <br>
-                <p>Le passage à l'action est un défi considérable <br>mais tellement important. Nous avons mis en <br>
-                    place des leviers de transformation tout au <br> long de la chaine de valeur pour vous aider à <br>
-                    suivre le plan d'action le plus approprié.</p>
-            </div>
-    </article>
+            <p><strong>Mettre le développement durable au coeur de <br>votre stratégie.</strong></p>
+            <br>
+            <p>Le passage à l'action est un défi considérable <br>mais tellement important. Nous avons mis en <br>
+                place des leviers de transformation tout au <br> long de la chaine de valeur pour vous aider à <br>
+                suivre le plan d'action le plus approprié.</p>
+        </article>
+    </div>
+</div>
+
+
 </section>
 <!------------ NOS ACTION ------>
 <section>
-    <div>
-        <nav class="divers">
-            <h2><strong> Nos actions</strong></h2>
-            <img src="/Workpace/image/image ECO.jpeg" class="img-fluid">
-        </nav>
+    <div class="divers">
+        <h2><strong> Nos actions</strong></h2>
+        <img src="/Workpace/image/image ECO.jpeg" class="img-fluid">
     </div>
 
     <div class="texte1">
@@ -122,41 +149,96 @@
         <a class="btn btn-secondary btn-lg" href="index1.html" role="button">Découvrir ></a>
     </div>
 </section>
-
-<section>
-    
+<!----------section blog terminer------->
+<section id="monde">
     <picture class=" world">
         <img src="/Workpace/image/CRIQ1-2 1.png"class="img-fluid" >
     </picture>
     <div class="titlee">
         <h4>
-            Changeons tous ensemble l'amelioration du monde <br> de demain
+            Mobilisons-nous pour transformer l'environnement <br> des entreprise ecologique.
         </h4>
-
     </div>
-
 </section>
 
+<section id="Contact" class="row" >
+
+    <div class="formule1">
+        <div class="contactez">
+            <h2><strong> Nous contactez</strong></h2>
+        </div>
+
+        <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-2">
+                    <label for="validationCustom01" class="form-label">Nom</label>
+                    <input type="text" class="form-control" id="validationCustom01"  required>
+                    <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-2">
+                <label for="validationCustom02" class="#contact">Prénom</label>
+                    <input type="text" class="form-control" id="validationCustom02" required>
+                    <div class="valid-feedback">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-2">
+                <label for="validationCustomUsername" class="form-label" >Email</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <label for="validationCustom03" class="form-label">Ville</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <br>
+            <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Pays</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">France...</option>
+                        <option>...</option>
+                    </select>
+            <div class="invalid-feedback">
+                Please select a valid state.
+            </div>
+            </div>
+        
+            <div class="col-6">
+                <button class="btn btn-primary" type="submit">À Remplir</button>
+                </div>
+        </form>
+        </div>
+</section>
 </main>
 <!-------FIN DU CORP DE PAGE ---------->
 <!--------DEBUT DU PIED DE PAGE---------->
 <footer>
-<section id="Contact">
-    <nav class="#Services">
-        <a href="https://www.facebook.com/">Facebook</a>
-        <a href="https://github.com/Madikoule">GitHub</a>
-        <a href="https://twitter.com/">Twitter</a>
-    </nav>
-
-    <nav>
-        <a href="Mention">Mentions légal</a>
-        <p><strong>Nous sommes :</strong></p>
-
-    </nav>
-
-
-</section>
+    <div class="col-12">
+        <div class="logoo">
+            <a href="https://www.facebook.com/"><img src="/Workpace/image/logo/icone_facebook.png"></a>
+            <a href="https://github.com/Madikoule"><img src="/Workpace/image/logo/Vector2.png"></a>
+            <a href="https://twitter.com/"><img src="/Workpace/image/logo/icone_twitter.png"></a>
+        </div>
+            <div class="mention">
+                <a href="Mention">Mentions légal</a>
+                <a href="Politique ">Politique de (UE)</a>
+            </div>
+            <p>©2023, ECO. Environnement</p>
+            </div> 
+        </div>
+    </div>
 </footer>
 <!------FIN DU PIED DE PAGE---------->    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
