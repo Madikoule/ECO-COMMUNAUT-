@@ -6,7 +6,8 @@ margin: 0;
 }
 
 body {
-margin: 0;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 main {
@@ -16,87 +17,145 @@ width: 100%;
 
 /*******DEBUT DU HEADER******/
 
-header nav {
-    background-color: rgb(3, 94, 3);
+
+
+.nav-item {
+    padding-left: 2%;
+
+}
+
+
+.nav-item a {
+    color: rgb(111, 161, 111);
+    font-style:italic ;
+    font-weight:500;
+
+}
+
+
+.nav-link {
+    color: rgb(111, 161, 111);
+
+}
+
+.container-fluid {
+    background-color: rgb(249, 250, 249);
+    padding-bottom: 15px;
+    padding-top: 10px;
+
 }
 
 
 #evenement h1 {
+    position: relative;
     font-weight: 500;
+    font-size: 3rem;
     background-color: rgb(4, 44, 22);
-    text-indent: 3%;
     color: rgb(230, 237, 230);
     font-family: Arial, Helvetica, sans-serif;
+    top: 50px;
+    padding: 2%;
+    text-align: center;
 }
 
 /***** FIN DU HEADER****/
-/*****DEBUT DE L'ACTUALITÉ*****/
 
-#evenement img {
-    padding-top: 5%;
-    
-}
+/*****DEBUT DE L'ACTUALITÉ*****/
+/***** enonce1******/
 
 .enonce1 {
-    font-size: 14;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.enonce1 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: space-around;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .enonce1 img {
-    height: 400px;
+    width: 80%;
+    padding-top: 65px;
 }
 
-/*****debut enoncé ****/
 
-#evenement .enonce2 {
-    font-size: 14;
-    justify-content: space-around;
+.enonce1 p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 1.2rem;
+    color:lightslategray;
+    line-height: 35px;
+}
+
+/***** Début events2 ****/
+
+
+.events2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 85, 58);
+    color: white;
+}
+
+.events2 h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-color: rgb(4, 44, 22);
-    color:rgb(219, 218, 218);
-    
-
-}
-.enonce2 h2 {
-    margin-top: 4%;
-    color: rgb(247, 242, 242);
-    font-family:Georgia, 'Times New Roman', Times, serif
-
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
-.enonce2 p {
-    margin-top: 1%;
-
+.events2 img {
+    width: 80%;
+    padding-top: 65px;
 }
 
 
-.enonce2 strong {
-    color: rgb(235, 232, 232);
+.texte-events2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    line-height: 35px;
+    padding: 20px;
 }
 
-.enonce2 img {
-    height: 500px;
+.européenne{
+    font-weight: bold;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    line-height: 35px;
+    padding: 20px;
 }
 
-/***** event2 services******/
+/***** event3 services******/
+
 
 #solution {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+
 .title2 {
     text-align: center;
     padding-block: 5%;
 }
 
+
 .title2 h2{
     color: rgb(13, 13, 13);
 
 }
+
 
 .title2 p {
     color: rgb(109, 108, 108);
@@ -104,6 +163,7 @@ header nav {
 }
 
 /**** img event3 ****/
+
 
 .event3 {
     display: flex;
@@ -127,12 +187,15 @@ header nav {
 
 }
 
+
 .event3 img:hover{
     opacity: 0.6;
     
 }
 
-/***** fin event2*****/
+/***** fin event3*****/
+
+/***** event4*****/
 
 .event4 {
     text-align: center;
@@ -153,6 +216,10 @@ header nav {
     font-size: 30px;
 }
 
+/**** fin event4 ****/
+
+/****** form ****/
+
 .formule h5 {
     color: rgb(3, 86, 24);    
     text-align: center;
@@ -167,3 +234,37 @@ header nav {
     background-color: rgb(247, 247, 247);
 
 }
+
+footer {
+    text-align: center;
+    background-color: rgb(146, 195, 146);
+    margin-top: 1%;
+
+}
+
+footer .logoo1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2%;
+    
+}
+
+
+.logoo1 a :hover {
+    background-color:white ;
+}
+
+.logoo1  a {
+    margin-right: 1%;
+    width: 30px;
+    color: rgb(12,11,11);
+    
+}
+
+.logoo1 p {
+    margin-right: 1%;
+    color: rgb(12,11,11);
+
+
+}
+
