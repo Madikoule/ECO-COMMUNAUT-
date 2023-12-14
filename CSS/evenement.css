@@ -1,0 +1,271 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    margin: 0;
+    
+    }
+    
+    body {
+        overflow-x: hidden;
+        margin: 0;
+    }
+    
+    main {
+    width: 100%;
+    
+    }
+    
+    /*******DEBUT DU HEADER******/
+    
+    
+    
+    .nav-item {
+        padding-left: 2%;
+    
+    }
+    
+    
+    .nav-item a {
+        color: rgb(111, 161, 111);
+        font-style:italic ;
+        font-weight:500;
+    
+    }
+    
+    
+    .nav-link {
+        color: rgb(111, 161, 111);
+    
+    }
+    
+    .container-fluid {
+        background-color: rgb(249, 250, 249);
+        padding-bottom: 15px;
+        padding-top: 10px;
+    
+    }
+    
+    
+    #evenement h1 {
+        position: relative;
+        font-weight: 500;
+        font-size: 3rem;
+        background-color: rgb(4, 44, 22);
+        color: rgb(230, 237, 230);
+        font-family: Arial, Helvetica, sans-serif;
+        top: 50px;
+        padding: 2%;
+        text-align: center;
+    }
+    
+    /***** FIN DU HEADER****/
+    
+    /*****DEBUT DE L'ACTUALITÉ*****/
+    /***** enonce1******/
+    
+    .enonce1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .enonce1 h2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .enonce1 img {
+        width: 80%;
+        padding-top: 65px;
+    }
+    
+    
+    .enonce1 p {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: left;
+        font-size: 1.2rem;
+        color:lightslategray;
+        line-height: 35px;
+    }
+    
+    /***** Début events2 ****/
+    
+    
+    .events2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(45, 85, 58);
+        color: white;
+    }
+    
+    .events2 h2{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    
+    .events2 img {
+        width: 80%;
+        padding-top: 65px;
+    }
+    
+    
+    .texte-events2 {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        line-height: 35px;
+        padding: 20px;
+    }
+    
+    .européenne{
+        font-weight: bold;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+        line-height: 35px;
+        padding: 20px;
+    }
+    
+    /***** event3 services******/
+    
+    
+    #solution {
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+    .title2 {
+        text-align: center;
+        padding-block: 5%;
+    }
+    
+    
+    .title2 h2{
+        color: rgb(13, 13, 13);
+    
+    }
+    
+    
+    .title2 p {
+        color: rgb(109, 108, 108);
+        margin-top: 2%;
+    }
+    
+    /**** img event3 ****/
+    
+    
+    .event3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(242, 19, 19);
+        
+    }
+    
+    
+    .event3 img {
+        height: 300px;
+        width: 400px;
+        margin-top: 2%;
+        cursor: pointer;
+        border-radius: 2%;
+        align-self: center;
+    
+    }
+    
+    
+    .event3 img:hover{
+        opacity: 0.6;
+        
+    }
+    
+    /***** fin event3*****/
+    
+    /***** event4*****/
+    
+    .event4 {
+        text-align: center;
+        margin-top: 2%;
+    }
+    
+    
+    .event4 img {
+        height: 450px;
+        margin-top: 2%;
+        box-shadow: 24px 19px 8px -8px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    
+    }
+    .event4 h3 {
+        text-align: center;
+        margin-top: 5%;
+        color: rgb(8, 8, 83);
+        font-size: 30px;
+    }
+    
+    /**** fin event4 ****/
+    
+    /****** form ****/
+    
+    .formule h5 {
+        color: rgb(3, 86, 24);    
+        text-align: center;
+    }
+    
+    
+    .formule form {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(247, 247, 247);
+    
+    }
+    
+    footer {
+        text-align: center;
+        background-color: rgb(146, 195, 146);
+        margin-top: 1%;
+    
+    }
+    
+    footer .logoo1 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-right: 2%;
+        
+    }
+    
+    
+    .logoo1 a :hover {
+        background-color:white ;
+    }
+    
+    .logoo1  a {
+        margin-right: 1%;
+        width: 30px;
+        color: rgb(12,11,11);
+        
+    }
+    
+    .logoo1 p {
+        margin-right: 1%;
+        color: rgb(12,11,11);
+    
+    
+    }
+    
+    
