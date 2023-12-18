@@ -258,6 +258,7 @@ footer .logoo  {
 footer p {
     text-align: center;
     color: rgb(12, 11, 11);
+    margin-bottom: 0%;
 }
 
 
@@ -272,6 +273,7 @@ footer .mention {
     margin-right: 1%;
     
 }
+
 
 
 .logoo a :hover {
@@ -310,6 +312,14 @@ footer .mention {
     #blog img {
         width: 350px;
         height: 200px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    form .row {
+        margin-left: 0;
     }
     
 }
