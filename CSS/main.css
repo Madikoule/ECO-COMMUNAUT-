@@ -241,7 +241,7 @@ main {
 
 footer {
     width: 100%;
-    margin-top: 2%;
+    margin-top: 1%;
     background-color: rgb(146, 195, 146);
 
 }
@@ -258,7 +258,8 @@ footer .logoo  {
 footer p {
     text-align: center;
     color: rgb(12, 11, 11);
-    margin-bottom: 0%;
+    margin-bottom: 0;
+    
 }
 
 
@@ -290,7 +291,6 @@ footer .mention {
 
 .logoo p {
     margin-right: 1%;
-
 }
 
 /****** fin pied de page *****/

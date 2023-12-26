@@ -257,8 +257,16 @@
         text-align: center;
         background-color: rgb(146, 195, 146);
         margin-top: 1%;
+        
     
     }
+
+
+    footer p {
+        margin-bottom: 0;
+
+    }
+    
 
     
     footer .logoo1 {
